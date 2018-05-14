@@ -1,8 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 
+@Module({
+  imports: [],
+  controllers: [
+    appController,
+    usuario,
+    parametrosController,
+    inicioController,
+    preguntasFrecuentes
+  ], components: [],
+})
 @NgModule({
   declarations: [
     AppComponent
@@ -13,17 +23,19 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule implements NestModule{
+export class AppModule implements NestModule {
   nombreAplicacion = 'Deber5 NetsJS';
-  configure(consumer: MiddlewareConsumer): void{
-    consumer.apply(LogMiddleware)
+
+  configure(consumer: MiddlewareConsumer): void {
+    consumer
+      .apply(middleware)
       .with(this.nombreAplicacion)
       .forRoutes(
-        usuarioController,
+        usuario,
         appController,
         parametrosController,
         inicioController,
-        preguntasFrecuentesController
+        preguntasFrecuentes
       )
   }
 }

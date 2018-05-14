@@ -1,5 +1,4 @@
 import {Controller, Get, HttpCode, Post, Req, Res} from "@nestjs/common";
-import Status = jest.Status;
 
 @Controller('Usuario')
 export class Usuario {
@@ -10,7 +9,6 @@ export class Usuario {
   };
 
   usuarios = [];
-
   @HttpCode(202)
   @Get('mostrar1')
   mostrarUsuario1() {
@@ -37,13 +35,10 @@ export class Usuario {
       apellido: request.query.apellido,
       edad: request.query.edad
     };
-
     this.usuarios.push(nuevoUsuario);
-
     return response
       .status(201)
       .send(nuevoUsuario);
   }
-
-
 }
+

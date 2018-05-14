@@ -1,7 +1,7 @@
 import {ExpressMiddleware, Middleware, NestMiddleware} from "@nestjs/common";
 
 @Middleware()
-export class LogMiddleware implements NestMiddleware {
+export class middleware implements NestMiddleware {
 
   resolve(nombreAplicacion: string, anio: number): ExpressMiddleware {
     return (request, response, next) => {
@@ -22,3 +22,4 @@ export class LogMiddleware implements NestMiddleware {
     };
   }
 }
+

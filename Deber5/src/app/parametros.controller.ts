@@ -40,3 +40,4 @@ export class ParametrosController {
     return response.redirect('/Usuario/mostrar');
   }
 }
+
