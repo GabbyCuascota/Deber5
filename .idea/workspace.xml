@@ -44,11 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preguntasFrecuentes.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="preguntasFrecuentes.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deber5/src/app/preguntasFrecuentes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="208">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Deber5/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,12 +99,12 @@
         <option value="$PROJECT_DIR$/Deber5/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/Deber5/src/app/html1/preguntasFrecuentes.html" />
         <option value="$PROJECT_DIR$/Deber5/src/app/html1/Footer.html" />
-        <option value="$PROJECT_DIR$/Deber5/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Deber5/src/app/inicio.coontroller.ts" />
         <option value="$PROJECT_DIR$/Deber5/src/app/middleware.ts" />
         <option value="$PROJECT_DIR$/Deber5/src/app/parametros.controller.ts" />
-        <option value="$PROJECT_DIR$/Deber5/src/app/preguntasFrecuentes.ts" />
         <option value="$PROJECT_DIR$/Deber5/src/app/usuario.ts" />
+        <option value="$PROJECT_DIR$/Deber5/src/app/preguntasFrecuentes.ts" />
+        <option value="$PROJECT_DIR$/Deber5/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -198,12 +210,12 @@
       <updated>1526248573232</updated>
       <workItem from="1526248574951" duration="1459000" />
       <workItem from="1526306120576" duration="757000" />
-      <workItem from="1526332820836" duration="3562000" />
+      <workItem from="1526332820836" duration="3770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5778000" />
+    <option name="totallyTimeSpent" value="5986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="814" height="867" extended-state="0" />
@@ -340,16 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Deber5/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deber5/src/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -383,8 +385,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Deber5/src/app/preguntasFrecuentes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="208">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deber5/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

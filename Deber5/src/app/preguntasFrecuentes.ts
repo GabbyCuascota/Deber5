@@ -1,7 +1,7 @@
 import {Controller, Get, Post, Req, Res} from "@nestjs/common";
 
 const fs = require('fs');
-let preguntasHtml = fs.readFileSync(__dirname + '/html/preguntasFrecuentes.html', 'utf8');
+let preguntasHtml = fs.readFileSync(dirname + '/html/preguntasFrecuentes.html', 'utf8');
 
 @Controller()
 export class PreguntasFrecuentes {
