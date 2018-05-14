@@ -13,4 +13,17 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule implements NestModule{
+  nombreAplicacion = 'Deber5 NetsJS';
+  configure(consumer: MiddlewareConsumer): void{
+    consumer.apply(LogMiddleware)
+      .with(this.nombreAplicacion)
+      .forRoutes(
+        usuarioController,
+        appController,
+        parametrosController,
+        inicioController,
+        preguntasFrecuentesController
+      )
+  }
+}
